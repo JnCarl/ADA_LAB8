@@ -8,7 +8,7 @@ public class MochilaDinamica{
 
     //Metodo que hace las combinaciones de los pesos
     private static int minBags(int peso, int[] bags, Stack<Integer> bag, int pos, int result) {
-        if (peso == 0) {
+        if (peso == 0) {// Caso base
             return result;
         } else {
             int iter = bags[pos];
